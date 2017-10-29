@@ -1,0 +1,128 @@
+/*-- FONT --*/
+@font-face {
+    font-family: 'Harenosora';
+	src: url('../inc/font/Harenosora.otf');
+}
+
+*{
+	color:#616161;
+	font-family: "Rounded Mplus 1c"; /*Rounded M+ 1c(Google WEB Font)*/
+	font-size: 12px;
+}
+h1{
+	font-family:"Harenosora";
+}
+h2,h3,h4{
+	font-family: "Sawarabi Gothic";
+}
+#ws_title{
+	color:#616161;
+	font-family: "Harenosora";
+	font-size: 50px;
+	margin-left:50px;
+}
+.menu_link a{
+	font-family:"Harenosora";
+}
+/*-- TAG --*/
+*{
+	margin:0;
+	padding:0;
+}
+html,body,wrapper{
+	width:100vw;
+	height:100vh;
+}
+body{
+	background-color:#ffffff;
+}
+
+/* ページタイトル */
+h1{	font-size:70px;}
+/* セクション見出し */
+h2{ font-size:25px;}
+/* コンテンツ見出し */
+h3{	font-size:18px; margin-left:20px;}
+/* 項目見出し */
+h4{ font-size:16px; margin-left:40px;
+	font-style: bold;}
+/* 本文 */
+p{  text-align:left;
+    margin-top:5px;
+    margin-left:50px;
+}
+img{
+	border:none;
+}
+
+
+a			{ text-decoration: none; }
+a:link		{ color: #616161; }	/*未訪問*/
+a:visited	{ color: #616161; }	/*訪問済み*/
+a:hover		{ color: #ff482f; }	/*ポイント時*/
+a:active	{ color: #ff482f; }	/*選択中のリンク*/
+
+header{
+	margin:10px auto 10px;
+}
+footer{
+	background-color:#b8b8b8;
+	padding-left:10px;
+	height:30px;
+}
+menu{
+	background-color:#b8b8b8;
+	padding-left:20px;
+	height:30px;
+}
+
+/*-- CLASS --*/
+.clear{	clear:both;}
+
+.bg_line{
+	background-color:#e0d677;
+	opacity:0.5;
+	width:5px;
+	height:100%;
+}
+
+.menu_link{
+	display: inline-block;
+	margin:5px auto auto 10px;
+	margin-left:20px;
+}
+.menu_link a{
+	font-size:16px;
+}
+/*-- ID --*/
+#bg_line0{	position:fixed; top:0px; left:0px;
+			background-color:#616161; width:15px;}
+#bg_line1{	position:fixed; top:0px; left:15px}
+#bg_line2{	position:fixed; top:0px; left:25px}
+#bg_line3{	position:fixed; top:0px; left:35px}
+
+ul#menu_list{margin-left:20px;}
+
+#menu_lnk1{}
+#menu_lnk2{}
+#menu_lnk3{}
+
+#contents{
+	margin:10px auto 20px 80px;
+}
+#con_hr{
+	width:100%;
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+#con_detail{
+	border: 1px #b8b8b8 dashed;
+	border-radius: 10px;
+	margin:10px;
+	padding:10px;
+}
+
+#cpr{
+	padding:5px 0;
+	color:#616161;
+}
